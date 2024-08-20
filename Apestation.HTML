@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apestation</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        .header img {
+            height: 50px; /* Adjust size as needed */
+            margin-right: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            margin-right: 20px;
+        }
+        .header .search-login {
+            display: flex;
+            align-items: center;
+        }
+        .header .search-login input[type="text"] {
+            padding: 5px;
+            margin-right: 10px;
+        }
+        .main-content {
+            display: flex;
+            height: calc(100% - 80px); /* Adjust height based on header height */
+        }
+        .main-content .business-pic {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('business-pic.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .footer .contact-info {
+            text-align: left;
+        }
+        .footer .director-info {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="C:\Users\gulla\Downloads\Apestation Logo.jpeg" alt="Apestation Logo"> <!-- Replace 'logo.png' with your logo file -->
+        <h1>Apestation</h1>
+        <div class="search-login">
+            <input type="text" placeholder="Search...">
+            <button>🔍</button>
+            <input type="text" placeholder="Login">
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="business-pic">
+            <!-- Background image is used here -->
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="contact-info">
+            <p>Email: support@apestation.in</p>
+            <p>Contact: +91 (767-643-6916)</p>
+        </div>
+        <div class="director-info">
+            <p>Managing Director</p>
+            <p>Sudheer Reddy Chadipiralla</p>
+        </div>
+    </div>
+</body>
+</html>
